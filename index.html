@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <form value="#" id="form">
+      <label for="amount" id="amount">Amount:</label>
+      <input type="number" id="amountinput" />
+
+      <label for="description" id="description">Description:</label>
+      <input type="text" id="descriptioninput" />
+      <select name="choose" id="selected">
+        <option value="#" selected>Choose one of them</option>
+        <option value="clothing and apparel">Clothing and Apparel</option>
+        <option value="electronics">Electronics</option>
+        <option value="home and kitchen">Home and Kitchen</option>
+        <option value="books and literature">Books and Literature</option>
+        <option value="health and wellness">Health and Wellness</option>
+        <option value="sports and outdoors">Sports and Outdoors</option>
+        <option value="toys and games">Toys and Games</option>
+        <option value="automotive and tools">Automotive and Tools</option>
+        <option value="furniture and home decor">Furniture and Home Decor</option>
+        <option value="food and groceries">Food and Groceries</option>
+        <option value="pet supplies">Pet Supplies</option>
+        <option value="music and movies">Music and Movies</option>
+        <option value="office supplies">Office Supplies</option>
+        <option value="travel and luggage">Travel and Luggage</option>
+
+      </select>
+      <input type="submit" value="add" id="submit" />
+    </form>
+
+    <div>
+      <ul id="ul"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
